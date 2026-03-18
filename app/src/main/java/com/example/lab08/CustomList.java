@@ -10,6 +10,10 @@ public class CustomList {
         this.cities = new ArrayList<>();
     }
 
+    public CustomList(Object o, ArrayList<City> cities) {
+        this.cities = cities;
+    }
+
     public void addCity(City city) {
         cities.add(city);
     }
