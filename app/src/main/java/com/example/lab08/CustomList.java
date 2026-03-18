@@ -15,7 +15,6 @@ public class CustomList {
     }
 
 
-
     // Will be implemented later using TDD (leave blank for now)
     // public boolean hasCity(City city) { ... }
 }
