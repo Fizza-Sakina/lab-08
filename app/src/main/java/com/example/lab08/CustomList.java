@@ -20,6 +20,14 @@ public class CustomList {
         return cities.size();
     }
 
+    public void deleteCity(City city) {
+        if (cities.contains(city)) {
+            cities.remove(city);
+        } else {
+            throw new IllegalArgumentException("City not found");
+        }
+    }
+
 
     // Will be implemented later using TDD (leave blank for now)
     // public boolean hasCity(City city) { ... }
