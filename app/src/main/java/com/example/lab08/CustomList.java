@@ -20,9 +20,6 @@ public class CustomList {
     public boolean hasCity(City city) {
         return cities.contains(city);
     }
-    public int countCities() {
-        return cities.size();
-    }
 
     public void deleteCity(City city) {
         if (cities.contains(city)) {
